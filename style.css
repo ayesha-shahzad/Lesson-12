@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+}
+
+.header {
+    background-color: lightgray;
+    height: 10vh;
+    display: flex;
+}
+
+.wallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    margin-left: 2vw;
+    width: 50vw;
+}
+
+.currency-sign {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-size: 1.2rem !important;
+    font-weight: normal !important;
+}
+
+.menu {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    margin-right: 2vw;
+    width: 50vw;
+    align-items: center;
+}
+
+.menu-plus {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 10vh;
+    font-size: 2.8rem !important;
+    font-weight: normal !important;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100vw;
+    height: 79vh;
+}
+
+.body div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.firstbox {
+    border: solid black 0.1rem;
+    padding: 5vw 3vw;
+    border-radius: 50%;
+    margin-bottom: 2vh;
+}
+
+.secondbox {
+    border: solid black 0.1rem;
+    padding: 7vw;
+    border-radius: 50%;
+    margin-top: 2vh;
+    background-color: lightgray;
+}
+
+.footer {
+    background-color: lightgray;
+    height: 10vh;
+    display: flex;
+    border: solid black 0.1rem;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: 2vw; */
+    width: 20vw;
+    align-content: center;
+    border-right: solid black 0.1rem;
+}
+
+.footer-icon {
+    display: flex !important;
+    align-items: center;
+    width: 6vw;
+    justify-content: center;
+    height: 6vh;
+    font-size: 1.8rem !important;
+    font-weight: normal !important;
+}
+
+.footer-nav {
+    font-size: 0.6rem !important;
+}
+
+.selected {
+    background-color: gray;
+}
+
+.money-text {
+    font-size: 1.4rem !important;   
+}
