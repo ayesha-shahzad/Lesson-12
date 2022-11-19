@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height:auto;
+}
+.header {
+    background-color: lightgray;
+    height: 10vh;
+    display: flex;
+}
+.store {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    margin-left: 2vw;
+    width: 50vw;
+    font-size: 1.25rem;
+}
+.bag {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    margin-right: 2vw;
+    width: 50vw;
+    align-items: center;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 79vh;
+   
+}
+
+.boxname {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: relative;
+    align-items:stretch;
+    padding-inline: 3vw;
+    padding-bottom: 1vw;
+    height: auto;
+    border-bottom: solid gray 0.1rem;
+    font-size: 1.25rem;
+}
+.footer {
+    background-color: lightgray;
+    height: 10vh;
+    display: flex;
+    border: solid black 0.1rem;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: 2vw; */
+    width: 20vw;
+    align-content: center;
+    border-right: solid black 0.1rem;
+}
+
+.footer-icon {
+    display: flex !important;
+    align-items: center;
+    width: 6vw;
+    justify-content: center;
+    height: 6vh;
+    font-size: 1.8rem !important;
+    font-weight: normal !important;
+}
+
+.footer-nav {
+    font-size: 0.6rem !important;
+}
+.selected {
+    background-color: gray !important;
+}
+
