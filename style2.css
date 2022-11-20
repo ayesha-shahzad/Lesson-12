@@ -1,0 +1,158 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: lightgray;
+    height: 10vh;
+    display: flex;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 8;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    margin-left: 2vw;
+    width: 50vw;
+    font-size: 1.25rem;
+}
+
+.user {
+    display: flex !important;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-end;
+    position: relative;
+    margin-right: 2vw;
+    width: 20vw;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 69vh;
+}
+
+.box {
+    display: flex;
+    min-height: 8vh;
+    margin: 1vh 0;
+    align-items: center;
+}
+
+.box-sender {
+    flex-direction: row-reverse;
+}
+
+.box-receiver {
+    flex-direction: row;
+}
+
+.box-inner {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border: solid black 0.1rem;
+    text-align: center;
+    padding: 2vh 3vw;
+}
+
+.box-sender-inner {
+    margin-left: 27vw;
+    margin-right: 4vw;
+    background-color: lightgray;
+}
+
+.box-receiver-inner {
+    margin-left: 4vw;
+    margin-right: 12vw;
+}
+
+.box-big {
+    margin-left: 12vw;
+}
+
+.user-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: fit-content;
+    padding: 0.6rem;
+    border-radius: 50%;
+    min-width: 0.6rem;
+}
+
+.user-sender {
+    margin-right: 4vw;
+    border: solid black 0.1rem;
+    background-color: lightgray;
+}
+
+.user-others {
+    margin-left: 4vw;
+    border: solid black 0.1rem;
+}
+
+.user-none {
+    margin-left: 4vw;
+    border: solid transparent 0.1rem;
+}
+
+.footer {
+    background-color: lightgray;
+    height: 10vh;
+    display: flex;
+    border: solid black 0.1rem;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    width: 20vw;
+    align-content: center;
+    border-right: solid black 0.1rem;
+}
+
+.footer-icon {
+    display: flex !important;
+    align-items: center;
+    width: 6vw;
+    justify-content: center;
+    height: 6vh;
+    font-size: 1.8rem !important;
+    font-weight: normal !important;
+}
+
+.footer-nav {
+    font-size: 0.6rem !important;
+}
+
+.ribbon {
+    background-color: lightgray;
+    height: 10vh;
+    display: flex;
+}
+.user {
+    font-size: 1.8rem !important;
+    font-weight: normal !important;
+}
+.selected {
+    background-color: gray;
+}
